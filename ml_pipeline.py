@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 print("====ML CI Pipeline====")
 x=np.array([[1],[2],[3]])
 y=np.array([2,4,6])
-mpdel=LinearRegression()
+model=LinearRegression()
 model.fit(x,y)
 print("Model trained")
 
